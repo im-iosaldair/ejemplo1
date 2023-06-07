@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.ancho{
+    margin: auto;
+    max-width: 1200px;
+    align-items: center;
+}
+
+h1{
+    font-family: helvetica;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*ESTILOS SLIDE FOTOS*/
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+  
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height:500px;
+}
+  
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+  
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+    height:500px;
+    object-fit: cover;
+}
+
+.informacion{
+    background-color:rgba(83, 254, 21, 0.355);
+    max-width: 500px;
+    text-align: center;
+    padding:20px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    z-index: 2;/*para que esté al frente*/
+    transform: translate(-50% , -50%);
+    border-radius: 10px;
+    
+}
+
+h2{
+    font-family: helvetica;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+a{
+    display: inline-block;
+    font-family: helvetica;
+    font-size: 16px;
+    padding:15px 30px;
+    background-color: #ccc;
+    color:black;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.contenedorfotos{
+    position: relative;
+}

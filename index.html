@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/0cf1d9fef8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="responsiveslides.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Slide de fotos</h1>
+    <br>
+    <section class="ancho contenedorfotos">
+        <ul class="rslides">
+            <li><img src="imagenes_slide/cecati1.jpg" alt=""></li>
+            <li><img src="imagenes_slide/cecati2.jpg" alt=""></li>
+            <li><img src="imagenes_slide/cecati3.jpg" alt=""></li>
+          </ul>
+
+          <div class="informacion">
+            <h2>Titulo Slide</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, quae debitis minima minus soluta architecto sed dolore alias possimus qui ea distinctio voluptatem tenetur praesentium. Optio iure quod enim ipsa.</p>
+            <br>
+            <a href="#">Ver más</a>
+          </div>
+    </section>
+
+    <script>
+        $(function() {
+          $(".rslides").responsiveSlides();
+        });
+      </script>
+</body>
+</html>
